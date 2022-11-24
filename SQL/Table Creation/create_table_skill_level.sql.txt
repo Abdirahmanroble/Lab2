@@ -1,0 +1,7 @@
+CREATE TABLE skill_level (
+ lesson_id BIGINT REFERENCES lesson(id) ON DELETE CASCADE,
+ beginner VARCHAR(100) NOT NULL,
+ intermediate VARCHAR(100) NOT NULL,
+ Advanced VARCHAR(100) NOT NULL
+);
+

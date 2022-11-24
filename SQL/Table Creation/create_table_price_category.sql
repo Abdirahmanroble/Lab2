@@ -1,0 +1,6 @@
+CREATE TABLE price_category (
+ id BIGSERIAL NOT NULL PRIMARY KEY,
+ lesson_price DOUBLE PRECISION NOT NULL,
+ discount DOUBLE PRECISION,
+ instructors_salary DOUBLE PRECISION NOT NULL
+);
